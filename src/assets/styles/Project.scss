@@ -1,0 +1,94 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+}
+  
+.projects-container .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+  
+.projects-container .projects-grid .project {
+    text-align: left;
+}
+  
+.project h2:hover {
+    text-decoration: underline;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+  
+.zoom {
+    border-radius: 5px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+@media screen {
+    @media (max-width: 700px) {
+        .projects-container {
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+  
+        .projects-container .projects-grid {
+            display: block;
+        }
+      
+        .projects-container .projects-grid .project {
+            padding-bottom: 5%;
+        }
+    }
+}
+
+.tech-stack {
+    margin-top: 1rem;
+    
+    .stack-title {
+        display: block;
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+    }
+
+    .stack-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        .chip {
+            background-color: rgba(80, 0, 202, 0.1);
+            color: #5000ca;
+            font-size: 0.8rem;
+            
+            &:hover {
+                background-color: rgba(80, 0, 202, 0.2);
+            }
+        }
+    }
+}
+
+// Dark mode styles
+.dark-mode {
+    .tech-stack {
+        .stack-title {
+            color: #ccc;
+        }
+
+        .stack-chips .chip {
+            background-color: rgba(100, 255, 218, 0.1);
+            color: #64ffda;
+            
+            &:hover {
+                background-color: rgba(100, 255, 218, 0.2);
+            }
+        }
+    }
+}
