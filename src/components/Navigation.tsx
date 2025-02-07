@@ -64,7 +64,7 @@ function Navigation({parentToChild, modeChange}: any) {
   };
 
   const handleDownloadResume = () => {
-    window.open(`${process.env.PUBLIC_URL}/resume.pdf`, '_blank');
+    window.open(`${process.env.PUBLIC_URL}/Ratchakit_Resume.pdf`, '_blank');
   };
 
   const drawer = (
