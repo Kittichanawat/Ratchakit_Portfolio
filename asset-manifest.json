@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Ratchakit-Portfolio/static/css/main.d7295576.css",
+    "main.js": "/Ratchakit-Portfolio/static/js/main.1d26337a.js",
+    "static/js/453.ace21015.chunk.js": "/Ratchakit-Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/bg-light.png": "/Ratchakit-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/Ratchakit-Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "index.html": "/Ratchakit-Portfolio/index.html",
+    "main.d7295576.css.map": "/Ratchakit-Portfolio/static/css/main.d7295576.css.map",
+    "main.1d26337a.js.map": "/Ratchakit-Portfolio/static/js/main.1d26337a.js.map",
+    "453.ace21015.chunk.js.map": "/Ratchakit-Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7295576.css",
+    "static/js/main.1d26337a.js"
+  ]
+}
